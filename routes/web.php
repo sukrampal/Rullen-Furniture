@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::view('/navbar', "navbar");
+Route::view('/', "index");
+Route::view('/header', "header");
